@@ -1,0 +1,55 @@
+.parallax {
+	background-image: url("./images/ireland.jpg");
+
+	height: 1000px;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: kust;
+    src: url(Fvriosa.ttf);
+}
+
+.header {
+	display: none;
+	text-align: center;
+	margin-top: 185px;
+	font-family: kust;
+}
+
+.intro {
+	text-align: center;
+	color: white;
+	background-color: rgba(89, 89, 89, .8);
+	height: 200px;
+	line-height: 2em;
+	margin-top: 100px;
+}
+
+.header h1 {
+	border-bottom: 3px solid #a6a6a6;
+	padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

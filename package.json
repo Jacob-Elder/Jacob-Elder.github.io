@@ -1,0 +1,22 @@
+{
+  "name": "my_webpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jacob-Elder/Jacob-Elder.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jacob-Elder/Jacob-Elder.github.io/issues"
+  },
+  "homepage": "https://github.com/Jacob-Elder/Jacob-Elder.github.io#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

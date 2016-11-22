@@ -1,6 +1,6 @@
 (function(){
 	angular.module('MyWebpage')
-	.component("navBar", {
+	.component("navcomp", {
 		templateUrl: "app/components/nav_bar/nav_bar.html",
 		controller: NavBarCtrl,
 		controllerAs: "NavBarCtrl"

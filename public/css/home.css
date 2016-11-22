@@ -1,0 +1,30 @@
+header {
+	text-align: center;
+	margin-top: 5%;
+}
+
+body {
+	background: url("../img/ireland.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+about {
+	text-align: center;
+	background-color: rgba(166, 166, 166, .8);
+	border-radius: 10%;
+	margin-top: 5em;
+}
+
+about img {
+	height: 45%;
+	width: 45%;
+	padding: 1em;
+	border-radius: 100%;
+}
+
+about p {
+	font-size: 1.5em;
+}

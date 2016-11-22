@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Jacob Elder | Developer</title>
 	<base href="/">
+	<!-- CSS -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link type="text/css" rel="stylesheet" href="css/home.css">
+	<!-- JAVASCRIPT -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular-resource.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js"></script>
 	<script type="text/javascript" src="app/app.js"></script>
+	<script type="text/javascript" src="app/components/about/about.js"</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	
-
-
 </head>
 <body ng-app="MyWebpage">
-	<div ui-view></div>
+	<div class="container">
+		<div ui-view></div>
+	</div>
 </body>
 </html>

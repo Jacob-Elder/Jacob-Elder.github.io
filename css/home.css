@@ -1,30 +1,77 @@
 header {
 	text-align: center;
-	margin-top: 5%;
-}
-
-body {
 	background: url("../img/ireland.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 45em;
+    color: #004d00;
+}
+
+header h1 {
+	font-size: 4em;
+	margin-top: 16%;
+}
+
+header h2 {
+	font-size: 2em;
+}
+
+body {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 about {
 	text-align: center;
-	background-color: rgba(166, 166, 166, .8);
-	border-radius: 10%;
-	margin-top: 5em;
+	background-color: rgba(166, 166, 166, .7);
+}
+
+about h3 {
+	float: right;
+	margin: 10% 25% 0;
 }
 
 about img {
-	height: 45%;
-	width: 45%;
+	height: 40%;
+	width: 40%;
 	padding: 1em;
 	border-radius: 100%;
+	float: left;
 }
 
 about p {
 	font-size: 1.5em;
+	margin: 15% 5%;
+	clear: right;
+}
+
+nav-bar {
+	background-color: rgba(166, 166, 166, .97);
+	padding: 1.6em;
+}
+
+#fixed {
+	position: fixed;
+	top: 0;
+	z-index: 2;
+}
+
+nav-bar h3 {
+	display: inline;
+	font-size: 3em;
+	margin-left: 5%;
+}
+
+nav-bar ul {
+	display: inline;
+	float: right;
+	margin-right: 5%;
+}
+
+nav-bar ul li {
+	display: inline;
+	margin-left: 2em;
+	font-size: 2em;
 }

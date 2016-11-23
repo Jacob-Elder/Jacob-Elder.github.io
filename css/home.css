@@ -18,38 +18,25 @@ header h2 {
 	font-size: 2em;
 }
 
-body {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-about {
-	text-align: center;
+.about_section {
 	background-color: rgba(166, 166, 166, .7);
-}
-
-about h3 {
-	float: right;
-	margin: 10% 25% 0;
+	padding: 3em;
 }
 
 about img {
-	height: 40%;
-	width: 40%;
-	padding: 1em;
+	max-width: 300px;
+	max-height: 300px;
 	border-radius: 100%;
-	float: left;
 }
 
-about p {
+about .description {
+	text-align: center;
 	font-size: 1.5em;
-	margin: 15% 5%;
-	clear: right;
 }
 
 nav-bar {
 	background-color: rgba(166, 166, 166, .97);
-	padding: 1.6em;
+	padding: 1.4em;
 }
 
 #fixed {
@@ -74,4 +61,13 @@ nav-bar ul li {
 	display: inline;
 	margin-left: 2em;
 	font-size: 2em;
+}
+
+.projects_section {
+	background-color: rgba(166, 166, 166, .7);
+	margin-top: 5%;
+}
+
+projects h2 {
+	text-align: center;
 }

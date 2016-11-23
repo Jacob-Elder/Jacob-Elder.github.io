@@ -7,7 +7,7 @@
 	});
 
 	function NavBarCtrl() {
-
+		
 
 	}
 

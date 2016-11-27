@@ -11,7 +11,8 @@
 
 		$(document).ready(function(){
   			$('.project_carousel').slick({
-    			autoplay: true,
+    			autoplay: false,
+    			centerMode: true,
     			arrows: true
   			});
 		});

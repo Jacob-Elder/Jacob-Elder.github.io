@@ -9,14 +9,6 @@
 	function ProjectsCtrl() {
 		console.log("ProjectsCtrl loaded!");
 
-		$(document).ready(function(){
-  			$('.project_carousel').slick({
-    			autoplay: false,
-    			centerMode: true,
-    			arrows: true
-  			});
-		});
-
 	}
 
 })()

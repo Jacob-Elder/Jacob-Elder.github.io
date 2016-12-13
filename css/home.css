@@ -1,79 +1,77 @@
-header {
-	text-align: center;
-	background: url("../img/ireland.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+html {
+    overflow-x: hidden; 
+}
+
+body {
+	background-color: #292728;
+}
+
+.germany { 
+    /* The image used */
+    background-image: url("../img/laptop.jpg");
+
+    /* Set a specific height */
+    height: 750px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 45em;
-    color: #004d00;
+   /* margin-top: -25px;*/
+    padding-top: 180px;
 }
 
-header h1 {
-	font-size: 4em;
-	margin-top: 16%;
-}
-
-header h2 {
-	font-size: 2em;
-}
-
-.about_section {
-	background-color: rgba(166, 166, 166, .7);
-	padding: 3em;
-}
-
-about img {
-	max-width: 300px;
-	max-height: 300px;
-	border-radius: 100%;
-}
-
-about .description {
-	text-align: center;
-	font-size: 1.5em;
-}
-
-nav-bar {
-	background-color: rgba(166, 166, 166, .97);
-	padding: 1.4em;
-}
-
-#fixed {
-	position: fixed;
-	top: 0;
-	z-index: 2;
-}
-
-nav-bar h3 {
-	display: inline;
-	font-size: 3em;
-	margin-left: 5%;
-}
-
-nav-bar ul {
-	display: inline;
-	float: right;
-	margin-right: 5%;
-}
-
-nav-bar ul li {
-	display: inline;
-	margin-left: 2em;
-	font-size: 2em;
-}
-
-.projects_section {
-	background-color: rgba(166, 166, 166, .7);
-	margin-top: 5%;
-}
-
-projects h2 {
+#germany-text {
+	color: black;
 	text-align: center;
 }
 
-.carousel-inner img{
-	margin: 0 auto;
-	width: 50%;
-	max-height: 550px;
+#germany-text h1 {
+	font-size: 3.4em;
+}
+
+.forest { 
+    /* The image used */
+    background-image: url("../img/mountains.jpeg");
+
+    /* Set a specific height */
+    height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cave { 
+    /* The image used */
+    background-image: url("../img/atmosphere.jpeg");
+
+    /* Set a specific height */
+    height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.space { 
+    /* The image used */
+    background-image: url("../img/space2.jpg");
+
+    /* Set a specific height */
+    height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

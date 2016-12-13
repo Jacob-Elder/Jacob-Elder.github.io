@@ -1,0 +1,29 @@
+.skills-section {
+	min-height: 550px;
+	background-color: #292728;
+	color: #FFFCED;
+	text-align: center;
+	padding: 3%;
+}
+
+.skills-section h3 {
+	font-size: 3em;
+	text-decoration: underline;
+	margin-top: -5px;
+}
+
+.skills-section .skills-list div {
+	display: inline-block;
+	margin: 4% 5%;
+	font-size: 2em;
+}
+
+.skills-section .skills-list div img {
+	height:100px;
+	width: 100px;
+}
+
+#wide {
+	height: 80px;
+	width: 125px;
+}

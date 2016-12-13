@@ -1,0 +1,47 @@
+.about-section {
+	min-height: 550px;
+	padding: 5%;
+	background-color: #292728;
+	color: #FFFCED;
+}
+
+.about-pic {
+	float: left;
+	margin: 3% 5px;
+}
+
+.about-pic img {
+	width: 340px;
+	border-radius: 100%;
+}
+
+.about-text {
+	text-align: center;
+	font-size: 1.7em;
+}
+
+.about-text h3 {
+	font-size: 1.5em;
+	text-decoration: underline;
+	margin-top: 8%;
+}
+
+
+@media (max-width: 550px) {
+
+	.about-pic {
+		float: none;
+		margin: 0;
+	}
+
+	.about-pic img{
+		float: none;
+		display: block;
+		width: 250px;
+		margin: 0 auto;
+	}
+
+	.about-text {
+		clear: both;
+	}
+}

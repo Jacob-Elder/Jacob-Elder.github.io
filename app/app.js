@@ -6,7 +6,11 @@ angular.module("MyWebpage", ["ui.router"])
 	.state("home", {
 		url: "/",
 		templateUrl: "app/views/home.html"
-	});
+	})
+	.state("resume", {
+		url: "/resume",
+		templateUrl: "app/views/resume.html"
+	})
 
 	$locationProvider.html5Mode(true);
 }]);

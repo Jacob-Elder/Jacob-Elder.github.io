@@ -33,7 +33,7 @@ body {
 
 .forest { 
     /* The image used */
-    background-image: url("../img/mountains.jpeg");
+    background-image: url("../img/bridge.jpeg");
 
     /* Set a specific height */
     height: 400px; 
@@ -74,4 +74,41 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media (max-width: 700px) {
+
+    .germany {
+        height: 500px;
+        background-image: url("../img/laptop-small.png");
+        background-attachment: scroll;
+        background-height: 100%;
+        padding-top: 90px;
+    }
+
+    #germany-text {
+    color: white;
+}
+
+    .forest {
+        height: 300px;
+        background-image: url("../img/bridge-small.jpeg");
+        background-attachment: scroll;
+        background-height: 100%;
+    }
+
+    .cave {
+        height: 300px;
+        background-image: url("../img/atmosphere-small.jpeg");
+        background-attachment: scroll;
+        background-height: 100%;
+    }
+
+    .space {
+        height: 300px;
+        background-image: url("../img/space2-small.jpg");
+        background-attachment: scroll;
+        background-height: 100%;
+    }
+
 }

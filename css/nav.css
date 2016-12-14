@@ -25,6 +25,12 @@
 	display: none;
 }
 
+.dropdown-menu {
+	min-width: 250px;
+	width: 100%;
+	text-align: center;
+}
+
 .nav-list {
 	float: right;
 }
@@ -66,6 +72,14 @@
 		float: right;
 		margin-right: 10%;
 		margin-top: 20px;
+	}
+
+	.dropdown li {
+		font-size: 1.5em;
+	}
+
+	.divide {
+		border-bottom: 1px solid black;
 	}
 
 }

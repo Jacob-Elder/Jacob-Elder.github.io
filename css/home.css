@@ -4,6 +4,7 @@ html {
 
 body {
 	background-color: #292728;
+    font-family: 'Roboto', sans-serif;
 }
 
 .germany { 
@@ -23,7 +24,7 @@ body {
 }
 
 #germany-text {
-	color: black;
+	color: white;
 	text-align: center;
 }
 

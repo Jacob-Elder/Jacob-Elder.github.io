@@ -40,6 +40,11 @@
 	font-size: 1.7em;
 	margin-top: 3%;
 	margin-left: 30px;
+	cursor: pointer;
+}
+
+.nav-list li a:hover {
+	text-decoration: none;
 }
 
 .last {

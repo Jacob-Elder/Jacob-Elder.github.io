@@ -97,14 +97,14 @@ body {
 
     .forest {
         height: 300px;
-        background-image: url("../img/bridge-small.jpeg");
+        background-image: url("../img/record-player.jpg");
         background-attachment: scroll;
         background-height: 100%;
     }
 
     .cave {
         height: 300px;
-        background-image: url("../img/atmosphere-small.jpeg");
+        background-image: url("../img/coffee.jpeg");
         background-attachment: scroll;
         background-height: 100%;
     }

@@ -26,9 +26,9 @@
 }
 
 .dropdown-menu {
-	min-width: 250px;
-	width: 100%;
 	text-align: center;
+	min-width: auto;
+	width: 100%;
 }
 
 .nav-list {

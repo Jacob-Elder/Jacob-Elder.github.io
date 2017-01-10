@@ -33,6 +33,12 @@
 			$('html, body').animate({ scrollTop:$("#contact").offset().top}, 1500);
 		});
 
+		$(".dropdown-toggle").on('click', function() {
+			var screenWidth = $(window).width();
+			screenWidth = screenWidth - (screenWidth * .2);
+			$(".dropdown-menu").css("width", screenWidth);
+		});
+
 	}
 
 })()

@@ -41,7 +41,7 @@ body {
 
 .forest { 
     /* The image used */
-    background-image: url("../img/bridge.jpeg");
+    background-image: url("../img/record-player.jpg");
 
     /* Set a specific height */
     height: 400px; 
@@ -55,7 +55,7 @@ body {
 
 .cave { 
     /* The image used */
-    background-image: url("../img/atmosphere.jpeg");
+    background-image: url("../img/coffee.jpeg");
 
     /* Set a specific height */
     height: 400px; 

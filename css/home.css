@@ -7,9 +7,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.germany { 
+.seattle { 
     /* The image used */
-    background-image: url("../img/laptop.jpg");
+    background-image: url("../img/seattle.jpg");
 
     /* Set a specific height */
     height: 750px; 
@@ -20,23 +20,22 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
    /* margin-top: -25px;*/
-    padding-top: 210px;
+    padding-top: 180px;
 }
 
-#germany-text {
+#seattle-text {
 	color: white;
 	text-align: center;
     -webkit-transition:all linear 2s;
     transition:all linear 4s;
 }
 
-#germany-text.ng-hide {
-    opacity:0;
-    /* transform: scale(0.8); */
+#seattle-text h1 {
+	font-size: 4.3em;
 }
 
-#germany-text h1 {
-	font-size: 3.4em;
+#seattle-text h2 {
+    font-size: 2.5em;
 }
 
 .forest { 
@@ -72,7 +71,7 @@ body {
 
 .space { 
     /* The image used */
-    background-image: url("../img/space2.jpg");
+    background-image: url("../img/laptop.jpg");
 
     /* Set a specific height */
     height: 400px; 
@@ -86,9 +85,9 @@ body {
 
 @media (max-width: 700px) {
 
-    .germany {
+    .seattle {
         height: 500px;
-        background-image: url("../img/laptop-small.png");
+        background-image: url("../img/seattle.jpg");
         background-attachment: scroll;
         background-height: 100%;
         padding-top: 90px;
@@ -111,7 +110,7 @@ body {
 
     .space {
         height: 300px;
-        background-image: url("../img/space2-small.jpg");
+        background-image: url("../img/laptop.jpg");
         background-attachment: scroll;
         background-height: 100%;
     }

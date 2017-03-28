@@ -11,7 +11,7 @@ angular.module("MyWebpage", ["ui.router", "ngAnimate"])
 		url: "/resume",
 		templateUrl: "app/views/resume.html"
 	}).state("google", {
-		url: "/google35e8aaf8817e3e0a",
+		url: "/google35e8aaf8817e3e0a.html",
 		templateUrl: "app/views/google35e8aaf8817e3e0a.html"
 	})
 

@@ -10,9 +10,6 @@ angular.module("MyWebpage", ["ui.router", "ngAnimate"])
 	.state("resume", {
 		url: "/resume",
 		templateUrl: "app/views/resume.html"
-	}).state("google", {
-		url: "/google35e8aaf8817e3e0a.html",
-		templateUrl: "app/views/google35e8aaf8817e3e0a.html"
 	})
 
 	$locationProvider.html5Mode(true);

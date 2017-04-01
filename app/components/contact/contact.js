@@ -6,8 +6,6 @@
 		controllerAs: "ContactCtrl"
 	})
 
-	function ContactCtrl() {
-		console.log("ContactCtrl loaded!")
-	}
+	function ContactCtrl() {}
 
 })()

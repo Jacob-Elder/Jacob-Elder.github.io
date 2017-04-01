@@ -6,9 +6,6 @@
 		controllerAs: "SkillsCtrl"
 	});
 
-	function SkillsCtrl() {
-		console.log("SkillsCtrl loaded!");
-
-	}
+	function SkillsCtrl() {}
 
 })()

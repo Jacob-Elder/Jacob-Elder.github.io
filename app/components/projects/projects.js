@@ -6,8 +6,6 @@
 		controllerAs: "ProjectsCtrl"
 	})
 
-	function ProjectsCtrl() {
-		console.log("ProjectsCtrl loaded!")
-	}
+	function ProjectsCtrl() {}
 
 })()

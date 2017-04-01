@@ -7,7 +7,6 @@
 	});
 
 	function NavCtrl() {
-		console.log("NavCtrl loaded!");
 
 		$(".logo").on('click', function() {
 			$('html, body').animate({scrollTop:0}, 500);

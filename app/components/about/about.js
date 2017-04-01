@@ -6,8 +6,6 @@
 		controllerAs: "AboutCtrl"
 	});
 
-	function AboutCtrl() {
-		console.log("AboutCtrl loaded!");
-	}
+	function AboutCtrl() {}
 
 })()

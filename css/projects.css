@@ -23,6 +23,10 @@
 	max-height: 550px;
 }
 
+.carousel {
+	overflow: hidden;
+}
+
 .carousel-indicators {
 	z-index: 0 !important;
 }
